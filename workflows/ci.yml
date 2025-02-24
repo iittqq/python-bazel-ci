@@ -19,7 +19,7 @@ jobs:
       - name: Set up Bazel
         uses: bazelbuild/setup-bazel@v3
         with:
-          bazel-version: '6.0.0'  # Adjust this version as needed
+          bazel-version: '6.0.0' 
 
       - name: Build all targets
         run: bazel build //...
